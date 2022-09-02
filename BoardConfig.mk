@@ -30,7 +30,7 @@ DEVICE_MANIFEST_YUPIK_FILES += $(DEVICE_PATH)/manifest_berlin.xml
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=berlin
-TARGET_KERNEL_CONFIG += vendor/lineage_berlin.config
+TARGET_KERNEL_CONFIG += vendor/lmodroid_berlin.config
 
 # Kernel Modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
