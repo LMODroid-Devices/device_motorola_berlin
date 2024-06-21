@@ -16,8 +16,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lmodroid_berlin.mk
-
-COMMON_LUNCH_CHOICES := \
-    lmodroid_berlin-user \
-    lmodroid_berlin-userdebug \
-    lmodroid_berlin-eng
